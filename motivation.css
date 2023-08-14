@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+
+.title{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.image{
+    border: 5px solid white;
+    width: 100%;
+}
+
+div{
+    width: 30%;
+    margin-left: 35%; 
+    margin-top: 5%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
