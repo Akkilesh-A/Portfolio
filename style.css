@@ -1,24 +1,37 @@
-#title{
-    font-family: 'Caveat', cursive;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    text-align: center;
-    color:white;
-    text-transform: uppercase;
+.picture{
+    display: inline;
+    border: 2.5px solid black;  
+    border-radius: 20px;
+    float:left;    
 }
 
-.picture{
-    border: 5px solid white;
-    width:15%;
-    margin-left: 42.5%; 
+#title{
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color:black;
+  text-transform: uppercase;
+  border: none;
+  position:relative;
+  text-align: center;
+}
+#titleb{
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color:black;
+  border: none;
+  position:relative;
+  text-align: center;
 }
 
 #about{
     font-family: 'Caveat', cursive;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    color: white;
     text-transform: capitalize;
+    display: block;
+    clear:both;
 }
 
 #title1{
@@ -26,30 +39,53 @@
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     color: white;
+    padding: 20px 20px;
+    clear: both;
 }
 
 #title2{
     font-family: 'Caveat', cursive;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid teal;
+    border-radius: 10px;
+    padding: 10px;
     margin-left: 40%;
     margin-right: 40%;
-    color: white;
+    color: black;
 }
 
 body{
-    background-color:black;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+.center{
+    text-align: center;
+}
+.picture1{
+  text-align: center;
+  align-items: center;  
+}
+
+.picture2{
+  text-align: center;
+  align-items: center;  
 }
 
 #titloo{
-    font-family: 'Caveat', cursive;
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    color:white;
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  clear:left;
 }
 
-.center{
-    text-align: center;
+#contact{
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+
+img{
+  border-radius: 10px;
 }
 
