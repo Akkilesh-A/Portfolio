@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head_container{
+            display: flex;
+            
+            background-color: lightblue;
+            border-radius: 4px;
+        }
+
+        body{
+            background-color: rgb(184, 184, 232);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topborderlist{
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .items{
+            font-size: 20px;
+            padding-left: 10px;  
+            margin: 2px;  
+        }
+
+        .item1{
+            font-size: 20px;
+            padding-left: 10px;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .lastitem{
+            padding-right: 20px;
+        }
+
+        .top_links{
+            text-decoration: none;
+            color: black;
+        }
+
+        .top_links:hover{
+            text-decoration: underline;
+            color: grey;
+        }
+
+        #profilepic{
+            width: 30%;
+            margin-top: 2%;
+            border-radius: 4px;
+            margin-right: 2%;
+        }
+
+        .page_content{
+            display: flex;
+
+        }
+
+        .textbox{
+            background-color: aquamarine;
+            width: 100%;
+            margin-top: 2%;
+            border-radius: 4px;
+            padding: 2%;
+            /* text-align: center; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="head_container">
+        <p class="item1">Portfolio</p>
+        <ul class="topborderlist">
+            <li class="items"><a class="top_links" href="./contact.html">Contact</a></li>
+            <li class="items lastitem"><a class="top_links" href="./projects.html">Projects</a></li>
+        </ul>
+    </header>
+
+    <div class="page_content">
+        <img id="profilepic" src="./Profile picture.jpg" alt="my_photo">
+        <div class="textbox">
+            <h1>Hi! I'm Akkilesh</h1>
+            <p>Aspiring Web Developer with a passion for creating engaging and user-friendly digital experiences.
+                Possessing a solid foundation in front-end development 
+                and a keen interest in expanding skillsets to encompass both front-end and back-end technologies.</p>
+               
+            <p>Driven by a curiosity for emerging web trends and a dedication to continuous learning, I am actively honing my proficiency in web development. Proficient in front-end technologies such as HTML, CSS, and JavaScript, I'm interestes in gaining the ability to translate design concepts into functional and visually appealing websites.
+                My commitment to refining these skills is evidenced by my ongoing pursuit of knowledge in both front-end and back-end development, with an emphasis on mastering programming languages and frameworks.</p>
+               
+        </div>
+
+    </div>
+
+</body>
+</html>
